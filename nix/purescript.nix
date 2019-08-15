@@ -14,11 +14,12 @@
 }:
 mkDerivation {
   pname = "purescript";
-  version = "0.12.0";
+  version = "0.13.2";
   src = fetchgit {
     url = "https://github.com/purescript/purescript";
-    sha256 = "0705b101kgcad4cq6xnmbjw6szb4j33ssjm6xag1n4w9477wdl08";
-    rev = "a8e0911222f46411776978a13866eb097175162c";
+    sha256 = "0zfcxj0fhkksm722bdnkxgq2m4w33m9pfp2sc1i37l62ia00dg1y";
+    rev = "44397e5107dad601a52e0888a24993bec33e8fc0";
+
     fetchSubmodules = true;
   };
   isLibrary = true;
